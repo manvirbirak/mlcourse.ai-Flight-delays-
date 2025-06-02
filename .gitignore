@@ -192,3 +192,24 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+
+# Ignore data folders and sensitive file types
+data/
+*.csv
+*.xlsx
+*.json
+*.zip
+
+# Python virtual environment
+venv/
+.venv/
+env/
+
+
+.vscode/
+
+*.log
+logs/
+.cache/
+
+**/AppData/Local/Temp/
