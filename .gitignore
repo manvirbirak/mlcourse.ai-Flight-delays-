@@ -213,3 +213,6 @@ logs/
 .cache/
 
 **/AppData/Local/Temp/
+
+catboost_info/
+
